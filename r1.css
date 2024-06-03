@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif; /* Specify a font for better readability */
+    background-image: url('../images/th.jpeg'); /* Replace 'background.jpg' with the path to your background image */
+    background-size: cover; /* Cover the entire viewport with the background image */
+    background-position: center; /* Center the background image */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+#banner {
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent black background to the banner */
+    padding: 20px;
+    color: white; /* Set text color to white */
+    text-align: center;
+}
+
+#wrapper {
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to the content wrapper */
+    padding: 20px;
+    margin: 50px auto; /* Center the content wrapper */
+    width: 80%; /* Set a width for better readability */
+    max-width: 800px; /* Limit the maximum width */
+    border-radius: 10px; /* Add rounded corners to the content wrapper */
+}
+
+/* Style for headings */
+.head, .SubHead {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style for links */
+.link {
+    color: #0066cc; /* Set link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Style for form labels */
+.labels {
+    font-weight: bold;
+}
+
+/* Style for form fields */
+.fields {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Style for messages */
+.msg {
+    color: #ff0000; /* Set message color */
+    font-style: italic;
+}

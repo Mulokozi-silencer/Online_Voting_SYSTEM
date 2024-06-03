@@ -1,0 +1,37 @@
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+body {
+    background-image: url('images/vote.jpeg'); /* Replace 'path_to_your_image.jpg' with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+        background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 50px; /* Adjust distance from the top */
+    }
+
+    .form-control {
+        border-radius: 5px;
+    }
+
+    .btn {
+        border-radius: 5px;
+    }
+
+    h1, h2 {
+        color: #fff;
+    }
+
+    p {
+        color: #fff;
+}
